@@ -128,9 +128,6 @@ header a {
     font-size: 22px;
 }
 
-
-
-
 .quote-part {
     background-color: #E5E7EB;
     padding-top: 150px; 
@@ -152,4 +149,51 @@ header a {
     font-size: 30px;
     font-weight: 900;
     text-align: end;
+}
+
+.action {
+    padding-top: 150px; 
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 150px;
+}
+
+.overlay {
+    display: flex;
+    background-color: #3882F6;
+    padding: 60px 150px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.overlay .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.call {
+    font-size: 30px;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding: 0px;
+    margin: 0px;
+}
+
+.action .subtext {
+    font-size: 22px;
+    color: #E5E7EB;
+    padding: 0px;
+    margin: 0px;
+}
+
+.overlay button {
+    padding: 10px 45px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-radius: 10px;
+    border-style: solid;
 }
