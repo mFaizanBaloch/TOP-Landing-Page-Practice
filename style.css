@@ -197,3 +197,11 @@ header a {
     border-radius: 10px;
     border-style: solid;
 }
+
+footer {
+    background-color: #1F2937;
+    font-size: 20px;
+    color: #E5E7EB;
+    padding: 30px;
+    text-align: center;
+}
